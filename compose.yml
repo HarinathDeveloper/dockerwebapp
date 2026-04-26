@@ -6,7 +6,7 @@ services:
    ports:
      - "3306:3306"
    deploy:
-     - replicas: 4
+     replicas: 4
 
  application:
    image: mailcheck571/docker:appimage
