@@ -10,7 +10,5 @@ services:
    image: mailcheck571/docker:appimage
    ports:
      - "1111:8080"
-   deploy:
-     replicas: 4
    depends_on:
      - "devopsdb"
